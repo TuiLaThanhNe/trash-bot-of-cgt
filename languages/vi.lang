@@ -1,0 +1,104 @@
+# Nếu bạn muốn xuống dòng, hãy dùng\n. VD: SpermLord\nCatalizcs.
+# Sau khi thay đổi, bạn phải khởi động lại bot để có hiệu lực.
+# Đặt kí tự # ở đầu mỗi câu nếu bạn không muốn code chạy những dòng đó.
+# Thanks to CatalizCS for translate to Vietnamese!
+
+# mirai.js
+
+mirai.errorFormat=Module không đúng định dạng!
+mirai.nameExist=Tên module bị trùng với một module mang cùng tên khác!
+mirai.notFoundLanguage=Module %1 không hỗ trợ ngôn ngữ ngôn ngữ của bạn
+mirai.notFoundPackage=Không tìm thấy package %1 hỗ trợ cho module %2, tiến hành cài đặt...
+mirai.cantInstallPackage=Không thể cài đặt package %1 cho module %2, lỗi: %3
+mirai.loadedPackage=Đã tải thành công toàn bộ package cho module %1
+mirai.loadedConfig=Đã tải thành công config cho module %1
+mirai.cantLoadConfig=Không thể tải config của module %1, lỗi: %2
+mirai.cantOnload=Không thể khởi chạy setup của module %1, lỗi: %1
+mirai.successLoadModule=Đã tải thành công module %1
+mirai.failLoadModule=Không thể tải thành công module %1, lỗi: %2
+mirai.finishLoadModule=Đã tải thành công %1 module commands và %2 module events
+mirai.foundPathAppstate=Đã tìm thấy file appstate
+mirai.notFoundPathAppstate=Không tìm thấy file appstate
+mirai.checkListGban=Đang kiểm tra danh sách global ban...
+mirai.banDevice=Hiện tại thiết bị của bạn đã bị ban khỏi miraiproject, liên hệ tới facebook https://fb.me/HoaiBao.IN4 để biết thêm thông tin chi tiết hoặc xin key unban, nếu bạn đã có key unban hãy điền vào bên dưới!
+mirai.keyNotSameFormat=Dữ liệu bạn nhập phải là một dãy số bao gồm 6 chữ số!
+mirai.codeInputExpired=Code bạn nhập không trùng khớp hoặc đã hết hạn!
+mirai.unbanDeviceSuccess=Thiết bị của bạn đã được gỡ ban, hãy khởi động lại để có thể tiếp tục sử dụng
+mirai.userBanned=Bạn đã bị ban khỏi miraiproject vào lúc %1 với lý do: %2. Liên hệ tới facebook https://fb.me/HoaiBao.IN4 để biết thêm chi tiết!
+mirai.finishCheckListGban=Đã kiểm tra xong danh sách global ban
+mirai.handleListenError=handleListener đã xảy ra một số lỗi không mong muốn, lỗi: %1
+mirai.warningSourceCode=PHÁT HIỆN SOURCE CODE ĐÃ BỊ THAY ĐỔI CẤU TRÚC, HÃY DỪNG LẠI NGAY!
+mirai.refreshListen=Đã làm mới lại handleListener...
+mirai.successConnectDatabase=Kết nối đến cơ sở dữ liệu thành công
+mirai.failConnectDatabase=Kết nối đến cơ sở dữ liệu thất bại, lỗi: %1
+
+# includes/listen.js
+
+listen.startLoadEnvironment=Tiến hành khởi tạo biến môi trường...
+listen.loadedEnvironmentThread=Đã tải thành công biến môi trường nhóm
+listen.loadedEnvironmentUser=Đã tải thành công biến môi trường người dùng
+listen.successLoadEnvironment=Đã khởi tạo biến môi trường thành công
+listen.failLoadEnvironment=Khởi tạo biến môi trường không thành công, lỗi: %1
+
+# includes/controller/currencies.js
+
+currencies.needObjectOrArray=Phải là một Array hoặc Object hoặc có thể là cả hai
+currencies.needObject=Phải là một Object
+currencies.needNumber= Phải là một con số
+
+# includes/controller/threads.js
+
+threads.needObjectOrArray=Phải là một Array hoặc Object hoặc có thể là cả hai
+threads.needObject=Phải là một Object
+
+# includes/controller/users.js
+
+users.needObjectOrArray=Phải là một Array hoặc Object hoặc có thể là cả hai
+users.needObject=Phải là một Object
+
+# includes/handle/handleCommand.js
+
+handleCommand.userBanned=𝐻𝑖𝑒̣̂𝑛 𝑡𝑎̣𝑖 𝑏𝑎̣𝑛 đ𝑎𝑛𝑔 𝑏𝑖̣ 𝑐𝑎̂́𝑚 𝑠𝑢̛̉ 𝑑𝑢̣𝑛𝑔 𝑏𝑜𝑡!\𝑛𝐿𝑖𝑒̂𝑛 ℎ𝑒̣̂ 𝐹𝐵:\n https://www.facebook.com/congthanh.nhism2809 đ𝑒̂̉ 𝑏𝑖𝑒̂́𝑡 𝑡ℎ𝑒̂𝑚 𝑐ℎ𝑖 𝑡𝑖𝑒̂́𝑡.\n%1\n%2
+handleCommand.threadBanned=𝐻𝑖𝑒̣̂𝑛 𝑡𝑎̣𝑖 𝑛ℎ𝑜́𝑚 𝑐𝑢̉𝑎 𝑏𝑎̣𝑛 đ𝑎𝑛𝑔 𝑏𝑖̣ 𝑐𝑎̂́𝑚 𝑠𝑢̛̉ 𝑑𝑢̣𝑛𝑔 𝑏𝑜𝑡!\n𝐿𝑖𝑒̂𝑛 ℎ𝑒̣̂ 𝐹𝐵:\nhttps://www.facebook.com/congthanh.nhism2809 đ𝑒̂̉ 𝑏𝑖𝑒̂́𝑡 𝑡ℎ𝑒̂𝑚 𝑐ℎ𝑖 𝑡𝑖𝑒̂́𝑡.\n%1\n%2
+handleCommand.commandNotExist=⠀∧＿∧\n(｡･ω･｡)つ━☆・*。\n⊂　　/　　 +・°゜+.\nしーＪ　　•　°。+ *´¨\n𝑷𝒉𝒆́𝒑 𝒕𝒉𝒖𝒂̣̂𝒕 𝒘𝒊𝒏𝒙 𝒄𝒉𝒐 𝒕𝒂 𝒃𝒊𝒆̂́𝒕\n𝑪𝒐́ 𝒑𝒉𝒂̉𝒊 𝒍𝒂̀ 𝒍𝒆̣̂𝒏𝒉 "%1" 𝒉𝒐𝒏𝒈
+handleCommand.commandThreadBanned=𝑁ℎ𝑜́𝑚 𝐵𝑎̣𝑛 đ𝑎̃ 𝑏𝑖̣ 𝑐𝑎̂́𝑚 𝑠𝑢̛̉ 𝑑𝑢̣𝑛𝑔 𝑙𝑒̣̂𝑛ℎ "%1"
+handleCommand.commandUserBanned=𝐵𝑎̣𝑛 đ𝑎̃ 𝑏𝑖̣ 𝑐𝑎̂́𝑚 𝑠𝑢̛̉ 𝑑𝑢̣𝑛𝑔 𝑙𝑒̣̂𝑛ℎ "%1"
+handleCommand.threadNotAllowNSFW=Nhóm của bạn không được phép sử dụng những lệnh NSFW
+handleCommand.cantGetInfoThread=𝑯𝒐𝒏𝒈 𝒕𝒉𝒆̂̉ 𝒍𝒂̂́𝒚 𝒕𝒉𝒐̂𝒏𝒈 𝒕𝒊𝒏 𝒄𝒖̉𝒂 𝒏𝒉𝒐́𝒎, 𝒍𝒐̂̃𝒊: %1
+handleCommand.permssionNotEnough=𝑨𝒉𝒊𝒉𝒊 𝒅𝒂̂𝒏 𝒕𝒉𝒖̛𝒐̛̀𝒏𝒈 𝒌𝒉 𝒙𝒂̀𝒊 𝒍𝒆̣̂𝒏𝒉 "%1" 𝒏𝒉𝒂 \n (づ￣ 3￣)づ
+handleCommand.cantSetMessageReaction=Đã có lỗi xảy ra không mong muốn tại setMessageReaction, lỗi: %1
+handleCommand.notFoundLanguage=Không tìm thấy ngôn ngữ hỗ trợ cho module %1s
+handleCommand.executeCommand=[ %1 ] Lệnh sử dụng: %2 bởi người dùng: %3 tại nhóm: %4 | Args đi kèm: %5 | Thời gian xử lý: %6ms
+handleCommand.commandError=Đã xảy ra lỗi không mong muốn trong khi thực thi lệnh %1, lỗi: %2
+
+# includes/handle/handleCommandEvent.js
+
+handleCommandEvent.moduleError=Đã xảy ra lỗi không mong muốn tại lệnh %1, lỗi: %2
+
+# includes/handle/handleCreateDatabase.js
+
+handleCreateDatabase.newThread=nhóm mới: %1
+handleCreateDatabase.newUser=người dùng mới: %1
+
+# includes/handle/handleEvent.js
+
+handleEvent.executeEvent=[ %1 ] Event được thực thi: %2 tại nhóm: %3 | Thời gian xử lý: %4ms
+handleEvent.eventError=Đã xảy ra lỗi không mong muốn trong khi thực thi event %1, lỗi: %12
+
+# includes/handle/handleReaction.js
+
+handleReaction.missingValue=Thiếu dữ liệu để có thể thực thi phản hồi lại câu trả lời của bạn
+handleReaction.executeError=Đã xảy ra lỗi không mong muốn khi đang thực thi trả lời câu hỏi bạn, lỗi: %1
+
+# includes/handle/handleReply.js
+
+handleReply.missingValue=Thiếu dữ liệu để có thể thực thi phản hồi lại câu trả lời của bạn
+handleReply.executeError=Đã xảy ra lỗi không mong muốn khi đang thực thi trả lời câu hỏi bạn, lỗi: %1
+
+# includes/handle/handleSchedule.js
+
+handleSchedule.exectuteError=Đã xảy ra lỗi không mong muốn trong lúc schedule tại module %1, lỗi: %2
+
+# utils/index.js
+
+utils.throwError=( \ _ / )\n( • - • )\n(>🧠<)\n 𝑼 𝒍𝒂̀ 𝒕𝒓, 𝒅𝒖̀𝒏𝒈 𝒍𝒆̣̂𝒏𝒉 𝒄𝒖̃𝒏𝒈 𝒔𝒂𝒊 ,𝒔𝒖̛̉ 𝒅𝒖̣𝒏𝒈 %1𝒉𝒆𝒍𝒑 𝒉𝒐𝒂̣̆𝒄 %1𝒎𝒆𝒏𝒖 %2 đ𝒆̂̉ 𝒙𝒆𝒎 𝒍𝒊𝒔𝒕 𝒍𝒆̣̂𝒏𝒉.\𝒏𝑵𝒆̂́𝒖 𝒉𝒐𝒏𝒈 𝒉𝒊𝒆̂̉𝒖 𝒕𝒉𝒊̀ 𝒍𝒊𝒆̂𝒏 𝒉𝒆̣̂ 𝒕𝒖𝒊 𝒒𝒖𝒂 𝑭𝑩:\𝒏https://www.facebook.com/congthanh.nhism2809\𝒏𝑯𝒐𝒂̣̆𝒄 𝒍𝒊𝒆̂𝒏 𝒉𝒆̣̂ 𝒒𝒖𝒂 𝒛𝒂𝒍𝒐: 0987664301. \𝒏 𝑭𝒓𝒐𝒎 𝑪𝒕𝒉𝒂𝒏𝒉 𝑾𝒊𝒕𝒉 𝑳𝒐𝒗𝒆 
